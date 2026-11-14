@@ -36,4 +36,4 @@ Confirm that the LinkedIn URL matches the correct profile before publishing. Jav
 
 The MOVA and REHEMA project summaries are based on their public repository READMEs. MOVA and Sure Step use CSS illustrations; the REHEMA preview image is loaded from its repository. The Sure Step code link uses the repository URL provided by Phillip.
 
-The experience section describes project work and does not invent an employer or formal job history. Search metadata includes a canonical URL, social sharing tags, Person and WebSite structured data, `robots.txt`, and `sitemap.xml`.
+The experience section describes project work and does not invent an employer or formal job history. Search metadata includes a canonical URL, social sharing tags, Person, ProfilePage, and WebSite structured data, `robots.txt`, and `sitemap.xml`.
