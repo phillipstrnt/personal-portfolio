@@ -1,128 +1,241 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phillip Omuga | Portfolio</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#142b30">
+    <meta name="author" content="Phillip Omuga">
+    <meta name="description" content="Phillip Omuga is a web developer in Kampala. Explore MOVA, REHEMA, and Sure Step Cleaning Solutions, and contact me about software and web projects.">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <link rel="canonical" href="https://phillipstrnt.github.io/personal-portfolio/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_UG">
+    <meta property="og:site_name" content="Phillip Omuga Portfolio">
+    <meta property="og:title" content="Phillip Omuga | Web Developer in Kampala">
+    <meta property="og:description" content="Explore Phillip Omuga’s projects: MOVA, REHEMA, and Sure Step Cleaning Solutions. Web developer in Kampala, Uganda.">
+    <meta property="og:url" content="https://phillipstrnt.github.io/personal-portfolio/">
+    <meta property="og:image" content="https://phillipstrnt.github.io/personal-portfolio/assets/phillip-omuga.jpg">
+    <meta property="og:image:alt" content="Portrait of Phillip Omuga">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Phillip Omuga | Web Developer in Kampala">
+    <meta name="twitter:description" content="Web developer and product builder in Kampala, Uganda. Explore MOVA, REHEMA, and Sure Step Cleaning Solutions.">
+    <meta name="twitter:image" content="https://phillipstrnt.github.io/personal-portfolio/assets/phillip-omuga.jpg">
+    <title>Phillip Omuga | Web Developer in Kampala, Uganda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
-</head>
-<body>
+    <script src="script.js" defer></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://phillipstrnt.github.io/personal-portfolio/#person",
+            "name": "Phillip Omuga",
+            "url": "https://phillipstrnt.github.io/personal-portfolio/",
+            "image": "https://phillipstrnt.github.io/personal-portfolio/assets/phillip-omuga.jpg",
+            "jobTitle": "Web Developer",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Kampala",
+              "addressCountry": "UG"
+            },
+            "sameAs": [
+              "https://github.com/phillipstrnt",
+              "https://www.linkedin.com/in/omuga-phillip/"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://phillipstrnt.github.io/personal-portfolio/#website",
+            "url": "https://phillipstrnt.github.io/personal-portfolio/",
+            "name": "Phillip Omuga | Web Developer",
+            "description": "Portfolio of Phillip Omuga, web developer and product builder in Kampala, Uganda.",
+            "inLanguage": "en-UG",
+            "publisher": {"@id": "https://phillipstrnt.github.io/personal-portfolio/#person"}
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <h1>Phillip Omuga</h1>
-            <p>Aspiring Web Developer | Student | Tech Enthusiast</p>
-        </div>
+    <header class="site-header" id="top">
+      <div class="container nav-wrap">
+        <a class="brand" href="#top" aria-label="Phillip Omuga home">
+          <span class="brand-mark">PO</span>
+          <span>Phillip Omuga<span class="brand-period">.</span></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+          <span></span><span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#work">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a class="nav-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
     </header>
 
-    <!-- Navigation -->
-    <nav>
-        <div class="container">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+    <main id="main">
+      <section class="hero section-dark" aria-labelledby="hero-title">
+        <div class="hero-grid container">
+          <div class="hero-copy reveal">
+            <p class="eyebrow"><span class="eyebrow-dot"></span> WEB DEVELOPER <span class="eyebrow-divider">/</span> KAMPALA, UGANDA</p>
+            <h1 id="hero-title">I build for people<br>and <span>purpose.</span></h1>
+            <p class="hero-intro">I’m Phillip, a web developer and product builder. I create responsive web experiences and practical software, with a special interest in tools that make everyday work easier and help communities thrive.</p>
+            <div class="hero-actions">
+              <a class="button button-accent" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
+              <a class="button button-quiet" href="https://wa.me/256767060390?text=Hello%20Phillip%2C%20I%20found%20your%20portfolio." target="_blank" rel="noopener noreferrer">Message me on WhatsApp <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="hero-footnote"><span class="footnote-rule"></span> Thoughtful interfaces. Useful software. Always improving.</div>
+          </div>
+
+          <div class="hero-visual reveal reveal-delay">
+            <div class="portrait-card">
+              <img src="assets/phillip-omuga.jpg" alt="Portrait of Phillip Omuga" fetchpriority="high">
+              <span class="portrait-index">KLA&nbsp; / &nbsp;UG</span>
+            </div>
+            <div class="visual-note"><span class="visual-note-mark">✳</span><span>Ideas into<br>impact</span></div>
+            <div class="visual-ring" aria-hidden="true"></div>
+          </div>
+
+          <a class="scroll-cue" href="#about"><span>SCROLL TO DISCOVER</span><span aria-hidden="true">↓</span></a>
         </div>
-    </nav>
+      </section>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <div class="hero-text">
-                <h2>Hello, I'm Phillip</h2>
-                <p>
-                    A motivated student passionate about website design, front-end development,
-                    and building simple but attractive digital solutions.
-                </p>
-                <a href="projects.html" class="btn">View My Projects</a>
+      <section class="intro-section section-light" id="about" aria-labelledby="about-title">
+        <div class="container intro-grid">
+          <div class="section-label reveal"><span>01</span><span>ABOUT ME</span></div>
+          <div class="intro-content reveal">
+            <h2 id="about-title">Good technology starts with understanding <em>people.</em></h2>
+            <div class="intro-bottom">
+              <p>I build across the web stack, from accessible interfaces to the APIs and data workflows behind them. I enjoy turning real needs into clear, reliable products and improving them through hands-on project work.</p>
+              <a class="inline-link" href="https://github.com/phillipstrnt" target="_blank" rel="noopener noreferrer">More on GitHub <span aria-hidden="true">↗</span></a>
             </div>
-
-            <div class="hero-image">
-                <img src="img1.jpg" alt="Profile Photo">
-            </div>
-
-            <div class="clearfix"></div>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <!-- About Section -->
-    <section id="about" class="section">
+      <section class="work-section section-paper" id="work" aria-labelledby="work-title">
         <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <p>
-                My name is <strong>Phillip Omuga</strong>, and I am a student with a strong
-                interest in technology, programming, and website development. I enjoy creating
-                user-friendly web pages and learning modern approaches to software and design.
-            </p>
-            <p>
-                I am currently building my skills in HTML, CSS, JavaScript, and problem-solving
-                in programming. My goal is to grow into a professional software and web developer.
-            </p>
-        </div>
-    </section>
+          <div class="section-heading reveal">
+            <div><p class="section-label"><span>02</span><span>FEATURED PROJECTS</span></p><h2 id="work-title">Selected <em>work.</em></h2></div>
+            <p class="heading-aside">Projects with a live link<br>and a separate code review.</p>
+          </div>
 
-    <!-- Skills Section -->
-    <section id="skills" class="section light-bg">
+          <div class="projects-grid">
+            <article class="project-card project-card-mova reveal">
+              <div class="project-art project-art-mova" aria-hidden="true">
+                <div class="mova-window">
+                  <div class="mova-top"><span class="mova-logo">mova<span>.</span></span><span class="mova-status"><i></i> SYNCED</span></div>
+                  <div class="mova-body"><div class="mova-sidebar"><b></b><b></b><b></b><b></b></div><div class="mova-main"><span class="mova-overline">TODAY’S SALES</span><strong>UGX 2,480,000</strong><div class="mova-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="mova-till"><span>Product</span><span>Qty</span><span>Total</span><b>Whole grain rice</b><b>2</b><b>48,000</b><b>Fresh milk</b><b>4</b><b>18,000</b></div></div></div>
+                  <div class="mova-bottom"><span>INVENTORY</span><span>SALES</span><span>REPORTS</span></div>
+                </div>
+                <span class="art-caption">RETAIL TOOLS / 01</span>
+              </div>
+              <div class="project-info">
+                <div class="project-meta"><span>POINT OF SALE · OFFLINE-READY</span><span>01 / 03</span></div>
+                <h3>MOVA</h3>
+                <p>An installable point-of-sale platform for shops and small businesses. It brings checkout, barcode scanning, inventory, sales reports, multiple staff roles, and automatic sync after connectivity returns into one product.</p>
+                <div class="project-tags"><span>REACT</span><span>NODE.JS</span><span>MONGODB</span><span>OFFLINE-FIRST</span></div>
+                <div class="project-links"><a class="project-link" href="https://mova-azure-two.vercel.app" target="_blank" rel="noopener noreferrer">Live project <span aria-hidden="true">↗</span></a><a class="project-repo-link" href="https://github.com/phillipstrnt/mova" target="_blank" rel="noopener noreferrer">Code review</a></div>
+              </div>
+            </article>
+
+            <article class="project-card project-card-rehema reveal reveal-delay">
+              <a class="project-image" href="https://github.com/phillipstrnt/rehema-community-empowerment" target="_blank" rel="noopener noreferrer" aria-label="View REHEMA project image and repository">
+                <img src="https://raw.githubusercontent.com/phillipstrnt/rehema-community-empowerment/main/Client/public/images/community-highlights/health-outreach-team.jpg" alt="Health outreach team supporting community health work" loading="lazy">
+                <span class="image-stamp">COMMUNITY<br><strong>✳</strong><br>HEALTH</span>
+              </a>
+              <div class="project-info">
+                <div class="project-meta"><span>COMMUNITY HEALTH &amp; EMPOWERMENT</span><span>02 / 03</span></div>
+                <h3>REHEMA Community<br>Empowerment</h3>
+                <p>A full-stack platform for a community-focused organization working in health, education, and rural empowerment. It brings together pages for programs, stories, events, and community involvement with administration tools for managing content and outreach.</p>
+                <div class="project-tags"><span>REACT</span><span>NODE.JS</span><span>EXPRESS</span><span>COMMUNITY IMPACT</span></div>
+                <div class="project-links"><a class="project-link" href="https://rehema-website-preview-2026-1028-pe5b.onrender.com" target="_blank" rel="noopener noreferrer">Live project <span aria-hidden="true">↗</span></a><a class="project-repo-link" href="https://github.com/phillipstrnt/rehema-community-empowerment" target="_blank" rel="noopener noreferrer">Code review</a></div>
+              </div>
+            </article>
+
+            <article class="project-card project-card-surestep reveal">
+              <div class="project-art project-art-surestep" aria-hidden="true">
+                <div class="surestep-panel">
+                  <div class="surestep-brand">S<span>S</span><i>✳</i></div>
+                  <div class="surestep-message"><span>THOUGHTFUL CLEANING</span><strong>Sure Step<br>Cleaning Solutions</strong></div>
+                  <div class="surestep-services"><span>HOME CARE</span><span>WORKSPACES</span><span>DEEP CLEAN</span></div>
+                </div>
+                <span class="art-caption">CLEANING SERVICES / 03</span>
+              </div>
+              <div class="project-info">
+                <div class="project-meta"><span>WEB PROJECT · CLEANING SERVICES</span><span>03 / 03</span></div>
+                <h3>Sure Step Cleaning<br>Solutions</h3>
+                <p>A dedicated website for Sure Step Cleaning Solutions. The project gives the cleaning brand a clear online presence and a direct way for visitors to explore the service and get in touch.</p>
+                <div class="project-tags"><span>BUSINESS WEBSITE</span><span>CLEANING SERVICES</span><span>WEB DESIGN</span></div>
+                <div class="project-links"><a class="project-link" href="https://sure-step-cleaning-solutions.netlify.app/" target="_blank" rel="noopener noreferrer">Live project <span aria-hidden="true">↗</span></a><a class="project-repo-link" href="https://github.com/phillipstrnt/sure-step-cleaning-solutions" target="_blank" rel="noopener noreferrer">Code review</a></div>
+              </div>
+            </article>
+          </div>
+          <p class="work-note">Project links open the live websites and public code repositories.</p>
+        </div>
+      </section>
+
+      <section class="experience-section section-light" id="experience" aria-labelledby="experience-title">
         <div class="container">
-            <h2 class="section-title">My Skills</h2>
-
-            <div class="skill-box">
-                <h3>HTML</h3>
-                <p>Creating structured and semantic web pages.</p>
-            </div>
-
-            <div class="skill-box">
-                <h3>CSS</h3>
-                <p>Styling responsive and attractive web layouts.</p>
-            </div>
-
-            <div class="skill-box">
-                <h3>JavaScript</h3>
-                <p>Adding interactivity and dynamic behavior to websites.</p>
-            </div>
-
-            <div class="skill-box">
-                <h3>C Programming</h3>
-                <p>Understanding logic, conditions, loops, and problem-solving.</p>
-            </div>
-
-            <div class="clearfix"></div>
+          <div class="section-heading reveal">
+            <div><p class="section-label"><span>03</span><span>HANDS-ON EXPERIENCE</span></p><h2 id="experience-title">Learning through <em>building.</em></h2></div>
+            <p class="heading-aside">Project-based work across<br>business tools and community tech.</p>
+          </div>
+          <div class="experience-grid">
+            <article class="experience-card reveal">
+              <div class="experience-card-top"><span>PRODUCT DEVELOPMENT</span><span>01</span></div>
+              <h3>Business software</h3>
+              <p>Building MOVA, an offline-ready POS product with checkout, inventory, analytics, role-based access, and synchronization for when a connection returns.</p>
+              <a href="https://github.com/phillipstrnt/mova#readme" target="_blank" rel="noopener noreferrer">Explore the project <span aria-hidden="true">↗</span></a>
+            </article>
+            <article class="experience-card reveal reveal-delay">
+              <div class="experience-card-top"><span>COMMUNITY TECHNOLOGY</span><span>02</span></div>
+              <h3>Health &amp; outreach platform</h3>
+              <p>Contributing to a full-stack platform that organizes community programs, events, stories, gallery content, and administration workflows for REHEMA.</p>
+              <a href="https://github.com/phillipstrnt/rehema-community-empowerment#readme" target="_blank" rel="noopener noreferrer">Explore the project <span aria-hidden="true">↗</span></a>
+            </article>
+          </div>
+          <p class="experience-note">Experience highlights are drawn from the linked project repositories.</p>
         </div>
-    </section>
+      </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section dark-section">
+      <section class="skills-section section-dark" id="skills" aria-labelledby="skills-title">
         <div class="container">
-            <h2 class="section-title white">Contact Me</h2>
-
-            <div class="contact-info">
-                <p><strong>Name:</strong> Phillips Omuga</p>
-                <p><strong>Email:</strong> phillipstrnt@email.com</p>
-                <p><strong>Phone:</strong> +256 767 060 390</p>
-                <p><strong>Location:</strong> Kampala, Uganda</p>
-            </div>
-
-            <div class="contact-form">
-                <form>
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Your Email" required>
-                    <textarea placeholder="Your Message" rows="6" required></textarea>
-                    <button type="submit">Send Message</button>
-                </form>
-            </div>
-
-            <div class="clearfix"></div>
+          <div class="section-heading skills-heading reveal">
+            <div><p class="section-label"><span>04</span><span>SKILLS &amp; TOOLKIT</span></p><h2 id="skills-title">Tools I use to <em>make.</em></h2></div>
+            <p class="heading-aside">Growing through real projects<br>and focused practice.</p>
+          </div>
+          <div class="skill-cards">
+            <article class="skill-card reveal"><span class="skill-number">01</span><h3>Frontend</h3><p>HTML · CSS · JavaScript · React</p><span class="skill-status">PROJECT EXPERIENCE</span></article>
+            <article class="skill-card reveal"><span class="skill-number">02</span><h3>Backend</h3><p>Node.js · Express · MongoDB</p><span class="skill-status">PROJECT EXPERIENCE</span></article>
+            <article class="skill-card reveal"><span class="skill-number">03</span><h3>Java</h3><p>Object-oriented programming and application fundamentals.</p><span class="skill-status">DEVELOPING</span></article>
+            <article class="skill-card reveal"><span class="skill-number">04</span><h3>Product thinking</h3><p>Responsive interfaces, accessible flows, and practical user needs.</p><span class="skill-status">ALWAYS LEARNING</span></article>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 Phillip Omuga. All Rights Reserved.</p>
-    </footer>
+      <section class="contact-section section-accent" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-layout reveal">
+          <div><p class="section-label"><span>05</span><span>LET’S CONNECT</span></p><h2 id="contact-title">Have a good<br>idea? <em>Let’s talk.</em></h2><p class="contact-copy">I’m open to meeting people, learning together, and exploring opportunities to build something useful.</p></div>
+          <div class="contact-actions">
+            <a class="contact-action whatsapp-action" href="https://wa.me/256767060390?text=Hello%20Phillip%2C%20I%20found%20your%20portfolio." target="_blank" rel="noopener noreferrer"><span><small>QUICK MESSAGE</small><strong>Chat on WhatsApp</strong></span><span class="contact-arrow" aria-hidden="true">↗</span></a>
+            <a class="contact-action linkedin-action" href="https://www.linkedin.com/in/omuga-phillip/" target="_blank" rel="noopener noreferrer"><span><small>PROFESSIONAL NETWORK</small><strong>Connect on LinkedIn</strong></span><span class="contact-arrow" aria-hidden="true">↗</span></a>
+            <a class="contact-action github-action" href="https://github.com/phillipstrnt" target="_blank" rel="noopener noreferrer"><span><small>CODE &amp; PROJECTS</small><strong>Visit my GitHub</strong></span><span class="contact-arrow" aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
 
-</body>
+    <footer class="site-footer"><div class="container footer-wrap"><a class="brand" href="#top"><span class="brand-mark">PO</span><span>Phillip Omuga<span class="brand-period">.</span></span></a><span class="footer-note">Made with curiosity in Kampala.</span><span>© <span data-year>2026</span> Phillip Omuga</span></div></footer>
+  </body>
 </html>
